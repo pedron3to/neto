@@ -51,15 +51,15 @@ const ContentCard = ({
 
 const Feature2 = () => (
   <>
-    <Section bg="#f7f7fb">
+    <Section bg="#010E28">
       <Container>
         <Row className="justify-content-center">
           <Col lg="9">
             <Box className="text-center" mb={[4, 5]}>
-              <Title>
-                It’s everything
+              <Title color="#fff">
+                Tudo o que a sua empre precisa.
                 <br />
-                you’ll ever need.
+                num só lugar.
               </Title>
             </Box>
           </Col>
@@ -75,7 +75,7 @@ const Feature2 = () => (
             data-aos-delay="50"
           >
             <ContentCard
-              title="50+ Unique Design Blocks"
+              title="Inventário de Máquinas e Equipamentos"
               color="primary"
               iconName="icon-cards-2"
             />
@@ -90,7 +90,7 @@ const Feature2 = () => (
             data-aos-delay="50"
           >
             <ContentCard
-              title="Multiple Layouts"
+              title="Apreciação de Riscos"
               color="ash"
               iconName="icon-layout-11"
             />
@@ -105,7 +105,7 @@ const Feature2 = () => (
             data-aos-delay="50"
           >
             <ContentCard
-              title="Mobile First Design"
+              title="Plano de Ação e Cronograma"
               color="warning"
               iconName="icon-phone-charging-3-2"
             />
@@ -122,7 +122,7 @@ const Feature2 = () => (
             data-aos-delay="50"
           >
             <ContentCard
-              title="Fully Responsive"
+              title="Projetos"
               color="ash"
               iconName="icon-sidebar-2"
             />
@@ -137,7 +137,7 @@ const Feature2 = () => (
             data-aos-delay="50"
           >
             <ContentCard
-              title="Bootstrap 4 Framework"
+              title="Laudo Técnico Segurança"
               color="primary"
               iconName="icon-grid-45"
             />
@@ -154,7 +154,7 @@ const Feature2 = () => (
             data-aos-delay="50"
           >
             <ContentCard
-              title="Rich Documentation"
+              title="Procedimentos de Trabalho e Segurança"
               color="ash"
               iconName="icon-bookmark-2-2"
             />
@@ -169,7 +169,7 @@ const Feature2 = () => (
             data-aos-delay="50"
           >
             <ContentCard
-              title="Humanly Support"
+              title="Treinamento Operacional"
               color="success"
               iconName="icon-voice-recognition-2"
             />

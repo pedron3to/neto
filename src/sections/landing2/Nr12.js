@@ -50,7 +50,7 @@ const FeatureCard = ({
 
 const Feature = () => (
   <>
-    <Section bg="ash">
+    <Section bg="secondary">
       <Container>
         <Row className="align-items-center">
           <Col
@@ -63,13 +63,15 @@ const Feature = () => (
             data-aos-delay="500"
           >
             <Box>
-              <Title color="light">Build a perfect landing page.</Title>
+              <Title color="light">Segurança de Máquinas e Equipamentos</Title>
               <Text color="light" opacity={0.7}>
-                Create custom landing pages with Omega that converts more
-                visitors than any website. With lots of unique blocks, you can
-                easily build a page without coding.
+                Adequação de um parque fabril deve ser realizada como um todo 
+                e por isso os projetos de adequação de máquinas são considerados 
+                como um Ciclo, uma vez que novos processos, 
+                novos equipamentos e novos layouts estão constantemente sendo 
+                inseridos dentro da planta da indústria.
               </Text>
-              <Button mt={4}>Learn more</Button>
+              <Button mt={4}>Entre em contato</Button>
             </Box>
           </Col>
           <Col md="8" lg="5" className="order-lg-1 mt-5 mt-lg-0">
@@ -85,7 +87,7 @@ const Feature = () => (
                   <FeatureCard
                     color="primary"
                     iconName="icon-layout-11"
-                    title="Multiple Layouts"
+                    title="Inventário de máquinas"
                   >
                     With lots of unique blocks, you can easily build a page
                     without coding.
@@ -102,7 +104,7 @@ const Feature = () => (
                   <FeatureCard
                     color="ash"
                     iconName="icon-sidebar-2"
-                    title="Fully Responsive
+                    title="Análise de Risco
 "
                   >
                     With lots of unique blocks, you can easily build a page
@@ -120,7 +122,7 @@ const Feature = () => (
                   <FeatureCard
                     color="dark"
                     iconName="icon-voice-recognition-2"
-                    title="Great Support"
+                    title="Treinamento dos procedimentos de Segurança"
                   >
                     With lots of unique blocks, you can easily build a page
                     without coding.

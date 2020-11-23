@@ -6,7 +6,7 @@ import { Title, Button, Section, Box, Text } from "../../components/Core";
 import { device } from "../../utils";
 
 import imgRounded from "../../assets/image/png/l2-content1-oval.png";
-import imgHalf from "../../assets/image/jpeg/l2-content1-bg.jpg";
+import imgHalf from "../../assets/image/jpeg/pmoc.jpg";
 
 const ImageHalfContainer = styled(Box)`
   position: static;
@@ -73,8 +73,8 @@ const Content1 = () => (
             <Section py={[5, null, null, "190px"]}>
               <div className="omga-02__content-text section-title order-lg-1">
                 <Title>
-                  50k+ users are <br className="d-none d-sm-block" />
-                  using landing page.
+                Laudo para sistemas de ar condicionado (PMOC) <br className="d-none d-sm-block" />
+                  
                 </Title>
                 <Text>
                   Create custom landing pages with Omega that converts more

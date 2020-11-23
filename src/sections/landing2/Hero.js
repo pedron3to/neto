@@ -13,12 +13,13 @@ import {
 
 import { device } from "../../utils";
 
-import imgL2HeroOval1 from "../../assets/image/png/l2-hero-oval1.png";
-import imgL2HeroOval2 from "../../assets/image/png/l2-hero-oval2.png";
-import imgL2HeroBg from "../../assets/image/jpeg/l2-hero-bg.jpg";
+//import imgL2HeroOval1 from "../../assets/image/png/l2-hero-oval1.png";
+//import imgL2HeroOval2 from "../../assets/image/png/l2-hero-oval2.png";
+import imgL2HeroBg from "../../assets/image/jpeg/bgneto.jpg";
 
 const SectionStyled = styled(Section)`
   background: url(${imgL2HeroBg}) no-repeat;
+  height: 100vh;
   background-size: cover;
   background-position: bottom left;
 
@@ -59,12 +60,12 @@ const Hero = () => {
     <>
       {/* <!-- Hero Area --> */}
       <SectionStyled>
-        <div className="pt-5"></div>
-        <Container>
+        <div className="pt-2"></div>
+        <Container className="h-100vh">
           <Row>
             <Col lg="5" className="order-lg-2">
               <div className="position-relative w-100 h-100">
-                <ImageTop
+                {/* <ImageTop
                   bg="light"
                   data-aos="zoom-out"
                   data-aos-duration="750"
@@ -82,7 +83,7 @@ const Hero = () => {
                   className="d-none d-lg-block"
                 >
                   <img src={imgL2HeroOval2} alt="" className="img-fluid" />
-                </ImageBottom>
+                </ImageBottom> */}
               </div>
             </Col>
             <Col
@@ -94,45 +95,15 @@ const Hero = () => {
               data-aos-delay="500"
               data-aos-once="true"
             >
-              <Box py={[null, null, null, 5]} pr={5} pt={[4, null]}>
-                <Title variant="hero">
-                  Bring more leads for your business.
+              <Box py={[null, null, null, 5]} pr={5} pt={[8, null]}>
+                <Title variant="hero" color="#fff" >
+                  Consultoria <br /> em Engenharia.
                 </Title>
-                <Text mb={4}>
-                  Create custom landing pages with Omega that convert more
-                  visitors than any website. With lots of unique blocks, you can
-                  easily build a page without coding.
+                <Text mb={4} color="#fff" fontSize={[null, null, null, "31px"]}>
+                  Sua empresa segura <br />e você sem dor cabeça.
                 </Text>
-                <form action="/">
-                  <div className="position-relative">
-                    <InputGroup
-                      icon={<i className="icon icon-email-84" />}
-                      placeholder="Email address"
-                      border="none"
-                      css={`
-                      
-                       @media${device.sm}{
-                        padding-right: 210px;
-                      }
-                      `}
-                    />
-                    <Button
-                      css={`
-                      margin-top: 1rem;
-                      @media${device.sm}{
-                        margin-top: 0;
-                        position: absolute;
-                        top: 50%;
-                        right: 5px;
-                        transform: translateY(-50%);
-                      }
-
-                      `}
-                    >
-                      Get Started
-                    </Button>
-                  </div>
-                </form>
+                <Button > Entrar em contato</Button>
+                
               </Box>
             </Col>
           </Row>

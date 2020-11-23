@@ -70,11 +70,9 @@ const Content2 = () => (
               data-aos-once="true"
             >
               <div>
-                <Title>Save tons of time on design & coding.</Title>
+                <Title>Responsabilidade Técnica</Title>
                 <Text mb={4}>
-                  Create custom landing pages with Omega that converts more
-                  visitors than any website. With lots of unique blocks, you can
-                  easily build a page without coding.
+                  Laudos e projetos de estruturas metálicas.
                 </Text>
 
                 <Button mt={3}>Get Started</Button>
